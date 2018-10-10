@@ -13,7 +13,7 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended:true,}))
 
-const port = 4567;
+const port = 80;
 const dbUrl = "mongodb://localhost/imageTest_db";
 
 mongoose.connect(dbUrl)
